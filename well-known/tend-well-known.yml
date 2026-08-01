@@ -1,0 +1,22 @@
+generated: '2026-07-21'
+method: probed
+source: live probe of https://www.hellotend.com/.well-known/* 2026-07-21
+host: https://www.hellotend.com
+notes: >-
+  Tend Dental publishes no /.well-known discovery documents. It is a consumer
+  dental-care website (booking + marketing) with no public developer/API surface;
+  robots.txt disallows the internal /api/*, /booking, /intake and
+  /integrations/vercel/callback paths. Absence recorded as valid data.
+documents:
+  - path: /.well-known/security.txt
+    status: 404
+  - path: /.well-known/openid-configuration
+    status: 404
+  - path: /.well-known/oauth-authorization-server
+    status: 404
+  - path: /.well-known/api-catalog
+    status: 404
+  - path: /.well-known/ai-plugin.json
+    status: 404
+  - path: /llms.txt
+    status: 404

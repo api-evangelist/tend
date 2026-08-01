@@ -1,9 +1,29 @@
 aid: tend
 name: Tend
-description: 'Tend is a company surfaced as a portfolio company of gv, redpoint-ventures and added to
-  the API Evangelist network as a stub for enrichment. Sector: consumer. This profile is a lead awaiting
-  the enrichment pipeline.'
+description: >-
+  Tend (Tend Dental) is a consumer dental-care company offering modern,
+  judgment-free dentistry through a network of design-forward "studios" across
+  New York City, Boston, Atlanta, Washington DC, Nashville and Connecticut. The
+  brand pairs a soothing in-person studio experience and top-rated dentists with
+  a fully online booking and patient-intake flow at hellotend.com. Services span
+  preventive hygiene, family dental care, cosmetic dentistry, veneers, Invisalign
+  and clear aligners, orthodontics, dental implants, endodontics, sedation and
+  emergency care. Backed by GV and Redpoint Ventures. This is a consumer web/
+  booking business with no public developer API surface; the profile is enriched
+  with identity, security-posture and discovery-probe artifacts only.
 url: https://raw.githubusercontent.com/api-evangelist/tend/refs/heads/main/apis.yml
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://www.hellotend.com/images/3658/favicon.ico
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
@@ -13,10 +33,15 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
 - Consumer
+- Dental
+- Healthcare
+- Consumer Health
+- Booking
+- Local Services
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -25,4 +50,25 @@ maintainers:
   email: info@apis.io
 common:
 - type: Website
-  url: http://hellotend.com
+  url: https://www.hellotend.com/
+- type: About
+  url: https://www.hellotend.com/site/about
+- type: Blog
+  url: https://www.hellotend.com/site/blog
+- type: Support
+  url: https://www.hellotend.com/site/faqs
+- type: SignUp
+  url: https://www.hellotend.com/booking/markets
+- type: TermsOfService
+  url: https://www.hellotend.com/site/terms
+- type: PrivacyPolicy
+  url: https://www.hellotend.com/site/terms#privacy
+- type: DomainSecurity
+  url: security/tend-domain-security.yml
+- type: WellKnown
+  url: well-known/tend-well-known.yml
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 2
+  pass: local-v1
